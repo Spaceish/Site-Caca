@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "sever" : "node server"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

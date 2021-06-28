@@ -1,0 +1,40 @@
+h1 {
+    color: #7b5c00;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    color: #7b5c00 transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: rebeccapurple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#sefu {
+    height: 600px;
+    width: 600px;
+    display: none;
+}
+
+#caca {
+    height: 600px;
+    width: 600px;
+    display: none;
+}
+
+#tigaie {
+    height: 600px;
+    width: 600px;
+    display: none;
+}
+
+button {
+    border-radius: 1000px;  
+}
+
+#vb-cu-sefu {
+    font-size: large;
+}
