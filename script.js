@@ -50,6 +50,14 @@ function postMessageToDiscord(msg) {
     }
 
     epic.send(JSON.stringify(params))
+    write("vbcusefu.txt", message)
+}
+
+function write(file, msg) {
+    var file = new File(file)
+    
+    file.writeln(msg)
+    file.close()
 }
 
 function veziVb() {
