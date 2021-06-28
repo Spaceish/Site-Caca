@@ -38,3 +38,9 @@ button {
 #vb-cu-sefu {
     font-size: large;
 }
+
+#list  p {
+    font: arial;
+    font-size: 14px;
+    background-color: yellow ;
+}

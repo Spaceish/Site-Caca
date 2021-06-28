@@ -24,9 +24,42 @@ function arataTigaia() {
 }
 
 function vbCuSefu() {
-    window.alert("Ca sa vb cu sefu da msg pe Discord la Zeno#7226")
+    msg = prompt('Spune-i cv lu sefu')
+    postMessageToDiscord(msg)
 }
 
 function continua() {
-    window.location.href = "pagina2.html"
+    dute("pagina2.html")
+}
+
+function postMessageToDiscord(msg) {
+
+    const message = msg
+
+    var url = "https://discord.com/api/webhooks/859053657504350231/Q0DBVjKSNUnOYpWFd-25NHALbGeHxBmPOy3GXxa60g9QFn7l4kmIORvCMtKCk0FS-_go";
+
+    var epic = new XMLHttpRequest()
+    epic.open("POST", url)
+
+    epic.setRequestHeader('Content-type', 'application/json')
+
+    var params = {
+      username: 'uwu',
+      avatar_url: null,
+      content: message
+    }
+
+    epic.send(JSON.stringify(params))
+}
+
+function veziVb() {
+    dute("pagina3.html")
+}
+
+function dute(url) {
+    window.location.href = url
+}
+
+function paginaUnu() {
+    dute("index.html")
 }
