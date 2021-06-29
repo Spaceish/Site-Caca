@@ -88,3 +88,15 @@ function vbCuEdi() {
 function trimiteEdi() {
     postMessageToDiscord(msg.value, nume.value)
 }
+
+function arataFata() {
+    schimbaAratatu()
+    if(aratat) document.getElementById('fata').style.display = "block"
+    else document.getElementById('fata').style.display = "none"
+}
+
+function arataEdiTigan() {
+    schimbaAratatu()
+    if(aratat) document.getElementById('edi-tigan').style.display = "block"
+    else document.getElementById('edi-tigan').style.display = "none"
+}
