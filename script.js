@@ -24,19 +24,19 @@ function arataTigaia() {
 }
 
 function vbCuSefu() {
-    msg = prompt('Spune-i cv lu sefu')
-    postMessageToDiscord(msg)
+    dute("pagina4.html")
 }
 
 function continua() {
     dute("pagina2.html")
 }
 
-function postMessageToDiscord(msg) {
+function postMessageToDiscord(msg, nume) {
 
     const message = msg
+    const name = nume
 
-    var url = "https://discord.com/api/webhooks/859053657504350231/Q0DBVjKSNUnOYpWFd-25NHALbGeHxBmPOy3GXxa60g9QFn7l4kmIORvCMtKCk0FS-_go";
+    var url = "https://discord.com/api/webhooks/859053657504350231/Q0DBVjKSNUnOYpWFd-25NHALbGeHxBmPOy3GXxa60g9QFn7l4kmIORvCMtKCk0FS-_go"
 
     var epic = new XMLHttpRequest()
     epic.open("POST", url)
@@ -44,20 +44,12 @@ function postMessageToDiscord(msg) {
     epic.setRequestHeader('Content-type', 'application/json')
 
     var params = {
-      username: 'uwu',
+      username: nume,
       avatar_url: null,
       content: message
     }
 
     epic.send(JSON.stringify(params))
-    write("vbcusefu.txt", message)
-}
-
-function write(file, msg) {
-    var file = new File(file)
-    
-    file.writeln(msg)
-    file.close()
 }
 
 function veziVb() {
@@ -71,3 +63,7 @@ function dute(url) {
 function paginaUnu() {
     dute("index.html")
 }
+
+function trimite() {
+    postMessageToDiscord(msg.value, nume.value)
+  }
