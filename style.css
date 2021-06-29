@@ -44,3 +44,9 @@ button {
     font-size: 14px;
     background-color: yellow ;
 }
+
+#maria {
+    height: 600px;
+    width: 600px;
+    display: none;
+}

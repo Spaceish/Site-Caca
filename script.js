@@ -1,4 +1,4 @@
-var aratat = false;
+var aratat = false
 const btn = document.getElementById('arata-sef')
 
 function arataSefu() {
@@ -37,8 +37,8 @@ function postMessageToDiscord(msg, nume) {
     const name = nume
 
     var url = "https://discord.com/api/webhooks/859053657504350231/Q0DBVjKSNUnOYpWFd-25NHALbGeHxBmPOy3GXxa60g9QFn7l4kmIORvCMtKCk0FS-_go"
-    
-    if (window.location.href.includes("pagina6") url = "https://discord.com/api/webhooks/859345309330571265/rDpd8Vw8M1E6k7dLfmMR5PoWOwyhF088UzeR1gwPyWfMMSIZ-pK0RHX44ETk69lZ4wwD"
+
+    if (window.location.href.includes("pagina6")) url = "https://discord.com/api/webhooks/859345309330571265/rDpd8Vw8M1E6k7dLfmMR5PoWOwyhF088UzeR1gwPyWfMMSIZ-pK0RHX44ETk69lZ4wwD"
 
     var epic = new XMLHttpRequest()
     epic.open("POST", url)
@@ -68,4 +68,23 @@ function paginaUnu() {
 
 function trimite() {
     postMessageToDiscord(msg.value, nume.value)
-  }
+}
+
+function arataMaria() {
+    schimbaAratatu()
+    if(aratat) document.getElementById('maria').style.display = "block"
+    else document.getElementById('maria').style.display = "none"
+}
+
+function laEdi() {
+    dute("pagina5.html")
+}
+
+function vbCuEdi() {
+    pagina6 = true
+    dute("pagina6.html")
+}
+
+function trimiteEdi() {
+    postMessageToDiscord(msg.value, nume.value)
+}
