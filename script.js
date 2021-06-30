@@ -100,3 +100,7 @@ function arataEdiTigan() {
     if(aratat) document.getElementById('edi-tigan').style.display = "block"
     else document.getElementById('edi-tigan').style.display = "none"
 }
+
+function prindePeEdi() {
+    dute("ptedi.html")
+}
