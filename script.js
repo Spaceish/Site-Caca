@@ -36,7 +36,7 @@ function postMessageToDiscord(msg, nume) {
     const message = msg
     const name = nume
 
-    var url = "https://discord.com/api/webhooks/859053657504350231/Q0DBVjKSNUnOYpWFd-25NHALbGeHxBmPOy3GXxa60g9QFn7l4kmIORvCMtKCk0FS-_go"
+    var url = "https://discord.com/api/webhooks/860213395030671400/GLuyU7PNqKhgOp-bxMoyTbr0EruEKvkRy8MAR3h1mutrwcmlQISoniZQK8Kkcr4fTXY4"
 
     if (window.location.href.includes("pagina6")) url = "https://discord.com/api/webhooks/859345309330571265/rDpd8Vw8M1E6k7dLfmMR5PoWOwyhF088UzeR1gwPyWfMMSIZ-pK0RHX44ETk69lZ4wwD"
 
