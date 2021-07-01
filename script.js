@@ -104,3 +104,19 @@ function arataEdiTigan() {
 function prindePeEdi() {
     dute("ptedi.html")
 }
+
+function arataViolatoru() {
+    schimbaAratatu()
+    if(aratat) document.getElementById('violare').style.display = "block"
+    else document.getElementById('violare').style.display = "none"
+}
+
+function continua7() {
+    dute("pagina7.html")
+}
+
+function arataBiscuitu() {
+    schimbaAratatu()
+    if(aratat) document.getElementById('biscuit').style.display = "block"
+    else document.getElementById('biscuit').style.display = "none"
+}
