@@ -120,3 +120,12 @@ function arataBiscuitu() {
     if(aratat) document.getElementById('biscuit').style.display = "block"
     else document.getElementById('biscuit').style.display = "none"
 }
+
+function mariaClient() {
+    dute("mariaClient.html")
+}
+
+
+function getMariaClient() {
+    dute("https://github.com/ZenoMilk12/Maria-Client/releases/download/untagged-b14adf971d35557ad458/MariaClient.zip")
+}
