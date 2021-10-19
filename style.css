@@ -122,3 +122,8 @@ button {
     width: auto;
     display: none;
 }
+
+#lolu {
+    border-radius: 1000px;
+    color: cadetblue;
+}

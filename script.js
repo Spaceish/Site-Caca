@@ -185,3 +185,7 @@ function arataBoti() {
     if(aratat) document.getElementById("boti-freefire").style.display = "block"
     else document.getElementById("boti-freefire").style.display = "none"
 }
+
+function veziChat() {
+    dute("Free fire - Canale de text - 💨chat💨 [497418168084463618].html")
+}
