@@ -133,3 +133,55 @@ function getMariaClient() {
 function servereOG() {
     dute("servereog.html")
 }
+
+function aratafreeFire() {
+    schimbaAratatu()
+    if(aratat) document.getElementById("free-fire").style.display = "block"
+    else document.getElementById("free-fire").style.display = "none"
+}
+
+function arataAmenintarea() {
+    schimbaAratatu()
+    if(aratat) document.getElementById("amenintare-freefire").style.display = "block"
+    else document.getElementById("amenintare-freefire").style.display = "none"
+}
+
+function arataGiveaway() {
+    schimbaAratatu()
+    if(aratat) document.getElementById("giveaway-freefire").style.display = "block"
+    else document.getElementById("giveaway-freefire").style.display = "none"
+}
+
+function arataGiveawayServer() {
+    schimbaAratatu()
+    if(aratat) document.getElementById("giveaway2-freefire").style.display = "block"
+    else document.getElementById("giveaway2-freefire").style.display = "none"
+}
+
+
+function arataMareGiveaway() {
+    schimbaAratatu()
+    if(aratat) document.getElementById("maregiveaway-freefire").style.display = "block"
+    else document.getElementById("maregiveaway-freefire").style.display = "none"
+}
+
+
+function arataMC() {
+    schimbaAratatu()
+    if(aratat) document.getElementById("mc-freefire").style.display = "block"
+    else document.getElementById("mc-freefire").style.display = "none"
+}
+
+
+function arataIntoarcerea() {
+    schimbaAratatu()
+    if(aratat) document.getElementById("intoarcerea-freefire").style.display = "block"
+    else document.getElementById("intoarcerea-freefire").style.display = "none"
+}
+
+
+function arataBoti() {
+    schimbaAratatu()
+    if(aratat) document.getElementById("boti-freefire").style.display = "block"
+    else document.getElementById("boti-freefire").style.display = "none"
+}

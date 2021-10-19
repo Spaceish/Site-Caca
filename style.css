@@ -63,6 +63,12 @@ button {
     display: none;
 }
 
+#free-fire {
+    height: 315px;
+    width: 560px;
+    display: none;
+}
+
 #violare {
     height: 600px;
     width: 600px;
@@ -72,5 +78,47 @@ button {
 #biscuit {
     height: 600px;
     width: 600px;
+    display: none;
+}
+
+#amenintare-freefire {
+    height: auto;
+    width: auto;
+    display: none;
+}
+
+#giveaway-freefire {
+    height: auto;
+    width: auto;
+    display: none;
+}
+
+#giveaway2-freefire {
+    height: auto;
+    width: auto;
+    display: none;
+}
+
+#boti-freefire {
+    height: auto;
+    width: auto;
+    display: none;
+}
+
+#maregiveaway-freefire {
+    height: auto;
+    width: auto;
+    display: none;
+}
+
+#mc-freefire {
+    height: auto;
+    width: auto;
+    display: none;
+}
+
+#intoarcerea-freefire {
+    height: auto;
+    width: auto;
     display: none;
 }
