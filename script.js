@@ -241,3 +241,31 @@ function veziJoin() {
 function veziMcChat() {
     dute("McWorld - Text Channels - mc-chat [482525559553916941].html")
 }
+
+function vezianunturi() {
+    dute("EDI MANIA - 📋IMPORTANT📋 - 🔰anunturi🔰 [514127922878087170].html")
+}
+
+function veziRules() {
+    dute("EDI MANIA - 📋IMPORTANT📋 - 💬rules🗨 [514127809162117121].html")
+}
+
+function vezigiveaway() {
+    dute("EDI MANIA - 📋IMPORTANT📋 - 🎉giveway🎉 [514128325346852875].html")
+}
+
+function veziComenzi() {
+    dute("EDI MANIA - 💫TEXT CHANALES💫 - 💻comenzi💻 [514128673289535510].html")
+}
+
+function veziChatbox() {
+    dute("EDI MANIA - 💫TEXT CHANALES💫 - 💣chatbox💣 [514128599473979392].html")
+}
+
+function veziNemultumiri2() {
+    dute("EDI MANIA - 💫TEXT CHANALES💫 - 👎ne-multumiri👎 [514132602194493460].html")
+}
+
+function veziMeme() {
+    dute("EDI MANIA - 💫TEXT CHANALES💫 - 🌈meme🌈 [514128730235338780].html")
+}
