@@ -269,3 +269,59 @@ function veziNemultumiri2() {
 function veziMeme() {
     dute("EDI MANIA - 💫TEXT CHANALES💫 - 🌈meme🌈 [514128730235338780].html")
 }
+
+function veziRules2() {
+    dute("Shadical - ⚠IMPORTANT⚠ - ✨rules✨ [532562516690075648].html")
+}
+
+function veziAnnouncements() {
+    dute("Shadical - ⚠IMPORTANT⚠ - 🔔announcements🔔 [532859628216909825].html")
+}
+
+function veziInviteForRank() {
+    dute("Shadical - ⚠IMPORTANT⚠ - 🔰invite-for-rank🔰 [533224538956234772].html")
+}
+
+function veziParteners() {
+    dute("Shadical - ⚠IMPORTANT⚠ - parteners [541969535251513364].html")
+}
+
+function veziJoin2() {
+    dute("Shadical - Canale de text - ❓join❓ [531200942209499139].html")
+}
+
+function veziYoutubeShadical() {
+    dute("Shadical - Canale de text - 🎥youtube-shadical🎥 [531393311747866624].html")
+}
+
+function veziChatMusic() {
+    dute("Shadical - Canale de text - 🎸chat-music🎸 [532599371423023104].html")
+}
+
+function veziSugestii() {
+    dute("Shadical - Canale de text - 👍sugestii👍 [533047218580488242].html")
+}
+
+function veziChat2() {
+    dute("Shadical - Canale de text - 💨chat💨 [536619486975885332].html")
+}
+
+function veziPoze() {
+    dute("Shadical - Canale de text - 📷poze📷 [533045989259345940].html")
+}
+
+function veziPoze() {
+    dute("Shadical - Canale de text - 📷poze📷 [533045989259345940].html")
+}
+
+function veziCommandsBots() {
+    dute("Shadical - Canale de text - 🔐commands_bots🔐 [532600723582484510].html")
+}
+
+function veziLinkuri() {
+    dute("Shadical - Canale de text - 🔗link-uri🔗 [533046557294067712].html")
+}
+
+function veziCerereHeavy() {
+    dute("Shadical - Canale de text - cerere-heavy [536312130480242689].html")
+}
