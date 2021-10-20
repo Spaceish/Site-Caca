@@ -189,3 +189,55 @@ function arataBoti() {
 function veziChat() {
     dute("Free fire - Canale de text - 💨chat💨 [497418168084463618].html")
 }
+
+function veziWelcome() {
+    dute("Free fire - Canale de text - welcome [545506381969489931].html")
+}
+
+function veziAnunturi() {
+    dute("Free fire - Canale de text - ⚠anunturi⚠ [499996866679930890].html")
+}
+
+function veziCerereParteneriat() {
+    dute("Free fire - Canale de text - 😃cerere-parteneriat😃 [498480382862295040].html")
+}
+
+function veziRegulament() {
+    dute("Free fire - Canale de text - 🔔regulament🔔 [497430368287326208].html")
+}
+
+function veziParteneri() {
+    dute("Free fire - Canale de text - 💪parteneriat💪 [499996181703819274].html")
+}
+
+function veziComenzi() {
+    dute("Free fire - Canale de text - 💡comenzi💡 [497459278534410261].html")
+}
+
+function veziNemultumiri() {
+    dute("Free fire - Canale de text - 👎nemultumiri👎 [509752899182657569].html")
+}
+
+function veziGiveaway() {
+    dute("Free fire - Canale de text - 🎁giveaway🎁 [498061255869726720].html")
+}
+
+function veziAnunturi2() {
+    dute("McWorld - Text Channels - anunturi [528923541249458187].html")
+}
+
+function veziCentruHelp() {
+    dute("McWorld - Text Channels - centru-help [526786954281353237].html")
+}
+
+function veziCommands() {
+    dute("McWorld - Text Channels - commands [691399186465292398].html")
+}
+
+function veziJoin() {
+    dute("McWorld - Text Channels - join [526693168360587264].html")
+}
+
+function veziMcChat() {
+    dute("McWorld - Text Channels - mc-chat [482525559553916941].html")
+}
