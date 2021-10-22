@@ -60,9 +60,7 @@ function vbcu(msg) {
 
     var epic = new XMLHttpRequest()
     var params = {
-        content: message,
-        nonce: 901045338528284672,
-        tts: false
+        content: message
     }
     epic.open("POST", url)
     epic.setRequestHeader('Content-type', 'application/json')
