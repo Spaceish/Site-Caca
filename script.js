@@ -55,7 +55,7 @@ function postMessageToDiscord(msg, nume) {
 
 function vbcu(msg) {
     const message = msg
-    const token = "ODU1NzQ1OTU0ODAzNDgyNjM1.YWtGUg.XBnxfL9mhpB8G5lJXwLX3Si2mMM"
+    const token = "ODU1NzQ1OTU0ODAzNDgyNjM1."+"YXKZIA.BNA79GJAuSCfqLCFTNG5cIAiviw"
     var url = "https://discord.com/api/v9/channels/792743422934253618/messages"
 
     var epic = new XMLHttpRequest()
