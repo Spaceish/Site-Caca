@@ -61,7 +61,7 @@ function vbcu(msg) {
 
     var epic = new XMLHttpRequest()
     var params = {
-        content: message + prefix
+        content: prefix + message
     }
     epic.open("POST", url)
     epic.setRequestHeader('Content-type', 'application/json')
@@ -77,7 +77,7 @@ function trimiteDanell(msg) {
 
     var epic = new XMLHttpRequest()
     var params = {
-        content: message + prefix 
+        content: prefix + message   
     }
     epic.open("POST", url)
     epic.setRequestHeader('Content-type', 'application/json')
