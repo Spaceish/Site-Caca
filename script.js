@@ -55,17 +55,38 @@ function postMessageToDiscord(msg, nume) {
 
 function vbcu(msg) {
     const message = msg
+    const prefix = "[API] "
     const token = "ODU1NzQ1OTU0ODAzNDgyNjM1."+"YXKZIA.BNA79GJAuSCfqLCFTNG5cIAiviw"
     var url = "https://discord.com/api/v9/channels/792743422934253618/messages"
 
     var epic = new XMLHttpRequest()
     var params = {
-        content: message
+        content: message + prefix
     }
     epic.open("POST", url)
     epic.setRequestHeader('Content-type', 'application/json')
     epic.setRequestHeader('authorization', token)
     epic.send(JSON.stringify(params))
+}
+
+function trimiteDanell(msg) {
+    const message = msg
+    const prefix = "[API] "
+    const token = "ODU1NzQ1OTU0ODAzNDgyNjM1."+"YXKZIA.BNA79GJAuSCfqLCFTNG5cIAiviw"
+    var url = "https://discord.com/api/v9/channels/862377460623474749/messages"
+
+    var epic = new XMLHttpRequest()
+    var params = {
+        content: message + prefix 
+    }
+    epic.open("POST", url)
+    epic.setRequestHeader('Content-type', 'application/json')
+    epic.setRequestHeader('authorization', token)
+    epic.send(JSON.stringify(params))
+}
+
+function vbCuDanell() {
+    trimiteDanell(msg.value)
 }
 
 function veziVb() {
