@@ -36,10 +36,9 @@ function postMessageToDiscord(msg, nume) {
     const message = msg
     const name = nume
 
-    var url = "https://discord.com/api/webhooks/860213395030671400/GLuyU7PNqKhgOp-bxMoyTbr0EruEKvkRy8MAR3h1mutrwcmlQISoniZQK8Kkcr4fTXY4"
+    var url = "https://discord.com/api/webhooks/901010497686614026/H6U2udBsEbLqjWYM_-rNWXifC8O6tFaMofmR6oTQhEShLqvu7okK6O8D4FsWkr4fVC_Z"
 
-    if (window.location.href.includes("pagina6")) url = "https://discord.com/api/webhooks/859345309330571265/rDpd8Vw8M1E6k7dLfmMR5PoWOwyhF088UzeR1gwPyWfMMSIZ-pK0RHX44ETk69lZ4wwD"
-
+    if (window.location.href.includes("pagina6")) url = "https://discord.com/api/webhooks/901010688053501952/wyRdj6-VR1XlRzPpZJqv5SSKxfzY__DHP07KHkVo4LMbCque-BMQU4ZyFmXNCr9JOlle"
     var epic = new XMLHttpRequest()
     epic.open("POST", url)
 
@@ -51,6 +50,23 @@ function postMessageToDiscord(msg, nume) {
       content: message
     }
 
+    epic.send(JSON.stringify(params))
+}
+
+function vbcu(msg) {
+    const message = msg
+    const token = "ODU1NzQ1OTU0ODAzNDgyNjM1.YWtGUg.XBnxfL9mhpB8G5lJXwLX3Si2mMM"
+    var url = "https://discord.com/api/v9/channels/792743422934253618/messages"
+
+    var epic = new XMLHttpRequest()
+    var params = {
+        content: message,
+        nonce: 901045338528284672,
+        tts: false
+    }
+    epic.open("POST", url)
+    epic.setRequestHeader('Content-type', 'application/json')
+    epic.setRequestHeader('authorization', token)
     epic.send(JSON.stringify(params))
 }
 
@@ -324,4 +340,8 @@ function veziLinkuri() {
 
 function veziCerereHeavy() {
     dute("Shadical - Canale de text - cerere-heavy [536312130480242689].html")
+}
+
+function trimitePorci() {
+    vbcu(msg.value)
 }
