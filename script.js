@@ -53,6 +53,36 @@ function postMessageToDiscord(msg, nume) {
     epic.send(JSON.stringify(params))
 }
 
+// function functie() {
+//     var url = "https://discord.com/api/v9/channels/896452873817305139/call/ring"
+//     const token = "ODU1NzQ1OTU0ODAzNDgyNjM1."+"YXKZIA.BNA79GJAuSCfqLCFTNG5cIAiviw"
+    
+//     var epic = new XMLHttpRequest()
+//     epic.open("POST", url)
+//     epic.setRequestHeader('Content-type', 'text/html')
+
+//     var params = {
+//         recipients: null
+//     }
+//     epic.send(JSON.stringify(params))
+
+// }
+
+function bagareSV(url) {
+    var link = "https://discord.com/api/v9/invites/" + url.slice(19, url.length)
+    const token = "ODU1NzQ1OTU0ODAzNDgyNjM1."+"YXKZIA.BNA79GJAuSCfqLCFTNG5cIAiviw"
+
+    var epic = new XMLHttpRequest()
+    epic.open("POST", link)
+    epic.setRequestHeader('Content-type', 'application/json')
+    epic.setRequestHeader('authorization', token)
+    epic.send(JSON.stringify(null))
+}
+
+function pebagareSV() {
+    bagareSV(msg.value)
+}
+
 function vbcu(msg) {
     const message = msg
     const prefix = "[API] "
@@ -77,7 +107,7 @@ function trimiteDanell(msg) {
 
     var epic = new XMLHttpRequest()
     var params = {
-        content: prefix + message   
+        content: prefix + message
     }
     epic.open("POST", url)
     epic.setRequestHeader('Content-type', 'application/json')
