@@ -132,3 +132,7 @@ button {
     border-radius: 1000px;
     color: cadetblue;
 }
+
+#petarda {
+    display: none;
+}

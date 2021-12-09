@@ -53,20 +53,53 @@ function postMessageToDiscord(msg, nume) {
     epic.send(JSON.stringify(params))
 }
 
-// function functie() {
-//     var url = "https://discord.com/api/v9/channels/896452873817305139/call/ring"
-//     const token = "ODU1NzQ1OTU0ODAzNDgyNjM1."+"YXKZIA.BNA79GJAuSCfqLCFTNG5cIAiviw"
+function functie() {
+    var url = "https://discord.com/api/v9/channels/896452873817305139/call/ring"
+    const token = "ODU1NzQ1OTU0ODAzNDgyNjM1."+"YXKZIA.BNA79GJAuSCfqLCFTNG5cIAiviw"
     
+    var epic = new XMLHttpRequest()
+    epic.open("POST", url)
+    epic.setRequestHeader('Content-type', 'application/json')
+    epic.setRequestHeader('authorization', token)
+
+    var params = {
+        recipients: null
+    }
+    epic.send(JSON.stringify(params))
+    functieURM()
+}
+
+function conturiOG() {
+    dute("conturiOG.html")
+}
+
+// function msgurilol() {
+//     var url = "https://discord.com/api/v9/channels/792743422934253618/messages/901408240460525601/ack"
+//     const token = "ODU1NzQ1OTU0ODAzNDgyNjM1."+"YXKZIA.BNA79GJAuSCfqLCFTNG5cIAiviw"
+
 //     var epic = new XMLHttpRequest()
 //     epic.open("POST", url)
-//     epic.setRequestHeader('Content-type', 'text/html')
+//     epic.setRequestHeader('Content-type', 'application/json')
+//     epic.setRequestHeader('authorization', token)
 
 //     var params = {
-//         recipients: null
+//         token: null
 //     }
 //     epic.send(JSON.stringify(params))
-
 // }
+
+function functieURM() {
+    var url = "https://discord.com/api/v9/science"
+    const token = "ODU1NzQ1OTU0ODAzNDgyNjM1."+"YXKZIA.BNA79GJAuSCfqLCFTNG5cIAiviw"
+
+    var epic = new XMLHttpRequest()
+    epic.open("POST", url)
+    epic.setRequestHeader('Content-type', 'application/json')
+    epic.setRequestHeader('authorization', token)
+
+    var params = {"token":"ODU1NzQ1OTU0ODAzNDgyNjM1.Bsc9uRKU9AwGxTMx7NF-azCtuTI","events":[{"type":"video_layout_toggled","properties":{"client_track_timestamp":1634981856426,"video_layout":"minimum","channel_id":"792743422934253618","channel_type":3,"guild_id":null,"media_session_id":null,"voice_state_count":0,"video_stream_count":0,"video_enabled":false,"game_name":null,"game_id":null,"client_performance_cpu":11.795394375727875,"client_performance_memory":360080,"accessibility_support_enabled":false,"accessibility_features":128,"client_uuid":"CwAKdmk44Au4SmeyM4z7q3wBAAAyAAAA","client_send_timestamp":1634981856606}},{"type":"join_voice_channel","properties":{"client_track_timestamp":1634981856427,"channel_id":"792743422934253618","channel_type":3,"channel_bitrate":64000,"guild_id":null,"rtc_connection_id":"c0b1aaa9-a070-4acf-95e9-b4ebe10045ec","game_name":"","game_platform":null,"custom_status_count":1,"voice_state_count":0,"video_stream_count":0,"video_enabled":false,"client_performance_cpu":11.795394375727875,"client_performance_memory":360080,"accessibility_support_enabled":false,"accessibility_features":128,"client_uuid":"CwAKdmk44Au4SmeyM4z7q3wBAAAzAAAA","client_send_timestamp":1634981856606}}]}
+    epic.send(JSON.stringify(params))
+}
 
 function bagareSV(url) {
     var link = "https://discord.com/api/v9/invites/" + url.slice(19, url.length)
@@ -196,7 +229,7 @@ function getMariaClient() {
 }
 
 function servereOG() {
-    dute("servereog.html")
+    dute("sog.html")
 }
 
 function aratafreeFire() {
@@ -393,4 +426,14 @@ function veziCerereHeavy() {
 
 function trimitePorci() {
     vbcu(msg.value)
+}
+
+function arataPetarda() {
+    schimbaAratatu()
+    if (aratat) document.getElementById('petarda').style.display = "block"
+    else document.getElementById('petarda').style.display = "none"
+}
+
+function veziPetarda() {
+    dute('petarda.html')
 }
