@@ -119,7 +119,7 @@ function pebagareSV() {
 function vbcu(msg) {
     const message = msg
     const prefix = "[API] "
-    const token = "ODU1NzQ1OTU0ODAzNDgyNjM1."+"YXKZIA.BNA79GJAuSCfqLCFTNG5cIAiviw"
+    const token = "ODU1NzQ1OTU0ODAzNDgyNjM1." + "YZQXMg.TuPFOTbn1Ym0VcFVlrG571az8ss"
     var url = "https://discord.com/api/v9/channels/792743422934253618/messages"
 
     var epic = new XMLHttpRequest()
@@ -135,7 +135,7 @@ function vbcu(msg) {
 function trimiteDanell(msg) {
     const message = msg
     const prefix = "[API] "
-    const token = "ODU1NzQ1OTU0ODAzNDgyNjM1."+"YXKZIA.BNA79GJAuSCfqLCFTNG5cIAiviw"
+    const token = "ODU1NzQ1OTU0ODAzNDgyNjM1." + "YZQXMg.TuPFOTbn1Ym0VcFVlrG571az8ss"
     var url = "https://discord.com/api/v9/channels/862377460623474749/messages"
 
     var epic = new XMLHttpRequest()
