@@ -437,3 +437,19 @@ function arataPetarda() {
 function veziPetarda() {
     dute('petarda.html')
 }
+
+function arataColectia() {
+    schimbaAratatu()
+    if (aratat) document.getElementById('colectia').style.display = "block"
+    else document.getElementById('colectia').style.display = "none"
+}
+
+function arataMobra() {
+    schimbaAratatu()
+    if (aratat) document.getElementById('mobra').style.display = "block"
+    else document.getElementById('mobra').style.display = "none"    
+}
+
+function veziMobra() {
+    dute('leoMobra.html')
+}
