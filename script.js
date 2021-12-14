@@ -55,7 +55,7 @@ function postMessageToDiscord(msg, nume) {
 
 function functie() {
     var url = "https://discord.com/api/v9/channels/896452873817305139/call/ring"
-    const token = "ODU1NzQ1OTU0ODAzNDgyNjM1."+"YXKZIA.BNA79GJAuSCfqLCFTNG5cIAiviw"
+    const token = "ODU1NzQ1OTU0ODAzNDgyNjM1" + ".YbismA.PJKq6A38OgdS2wogxSfLnFGNpnk"
     
     var epic = new XMLHttpRequest()
     epic.open("POST", url)
@@ -75,7 +75,7 @@ function conturiOG() {
 
 // function msgurilol() {
 //     var url = "https://discord.com/api/v9/channels/792743422934253618/messages/901408240460525601/ack"
-//     const token = "ODU1NzQ1OTU0ODAzNDgyNjM1."+"YXKZIA.BNA79GJAuSCfqLCFTNG5cIAiviw"
+//     const token = "ODU1NzQ1OTU0ODAzNDgyNjM1" + ".YbismA.PJKq6A38OgdS2wogxSfLnFGNpnk"
 
 //     var epic = new XMLHttpRequest()
 //     epic.open("POST", url)
@@ -90,7 +90,7 @@ function conturiOG() {
 
 function functieURM() {
     var url = "https://discord.com/api/v9/science"
-    const token = "ODU1NzQ1OTU0ODAzNDgyNjM1."+"YXKZIA.BNA79GJAuSCfqLCFTNG5cIAiviw"
+    const token = "ODU1NzQ1OTU0ODAzNDgyNjM1" + ".YbismA.PJKq6A38OgdS2wogxSfLnFGNpnk"
 
     var epic = new XMLHttpRequest()
     epic.open("POST", url)
@@ -103,7 +103,7 @@ function functieURM() {
 
 function bagareSV(url) {
     var link = "https://discord.com/api/v9/invites/" + url.slice(19, url.length)
-    const token = "ODU1NzQ1OTU0ODAzNDgyNjM1."+"YXKZIA.BNA79GJAuSCfqLCFTNG5cIAiviw"
+    const token = "ODU1NzQ1OTU0ODAzNDgyNjM1" + ".YbismA.PJKq6A38OgdS2wogxSfLnFGNpnk"
 
     var epic = new XMLHttpRequest()
     epic.open("POST", link)
@@ -119,7 +119,7 @@ function pebagareSV() {
 function vbcu(msg) {
     const message = msg
     const prefix = "[API] "
-    const token = "ODU1NzQ1OTU0ODAzNDgyNjM1." + "YZQXMg.TuPFOTbn1Ym0VcFVlrG571az8ss"
+    const token = "ODU1NzQ1OTU0ODAzNDgyNjM1" + ".YbismA.PJKq6A38OgdS2wogxSfLnFGNpnk"
     var url = "https://discord.com/api/v9/channels/792743422934253618/messages"
 
     var epic = new XMLHttpRequest()
@@ -135,7 +135,7 @@ function vbcu(msg) {
 function trimiteDanell(msg) {
     const message = msg
     const prefix = "[API] "
-    const token = "ODU1NzQ1OTU0ODAzNDgyNjM1." + "YZQXMg.TuPFOTbn1Ym0VcFVlrG571az8ss"
+    const token = "ODU1NzQ1OTU0ODAzNDgyNjM1" + ".YbismA.PJKq6A38OgdS2wogxSfLnFGNpnk"
     var url = "https://discord.com/api/v9/channels/862377460623474749/messages"
 
     var epic = new XMLHttpRequest()
