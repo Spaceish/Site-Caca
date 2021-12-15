@@ -148,8 +148,28 @@ function trimiteDanell(msg) {
     epic.send(JSON.stringify(params))
 }
 
+function trimiteDarius(msg) {
+    const message = msg
+    const prefix = "[API] "
+    const token = "ODU1NzQ1OTU0ODAzNDgyNjM1" + ".YbismA.PJKq6A38OgdS2wogxSfLnFGNpnk"
+    var url = "https://discord.com/api/v9/channels/891703262003224677/messages"
+
+    var epic = new XMLHttpRequest()
+    var params = {
+        content: prefix + message
+    }
+    epic.open("POST", url)
+    epic.setRequestHeader('Content-type', 'application/json')
+    epic.setRequestHeader('authorization', token)
+    epic.send(JSON.stringify(params))
+}
+
 function vbCuDanell() {
     trimiteDanell(msg.value)
+}
+
+function vbCuDarius() {
+    trimiteDarius(msg.value)
 }
 
 function veziVb() {
