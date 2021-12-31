@@ -306,143 +306,143 @@ function arataBoti() {
 }
 
 function veziChat() {
-    dute("Free fire - Canale de text - 💨chat💨 [497418168084463618].html")
+    dute("htmluri_discord/Free fire - Canale de text - 💨chat💨 [497418168084463618].html")
 }
 
 function veziWelcome() {
-    dute("Free fire - Canale de text - welcome [545506381969489931].html")
+    dute("htmluri_discord/Free fire - Canale de text - welcome [545506381969489931].html")
 }
 
 function veziAnunturi() {
-    dute("Free fire - Canale de text - ⚠anunturi⚠ [499996866679930890].html")
+    dute("htmluri_discord/Free fire - Canale de text - ⚠anunturi⚠ [499996866679930890].html")
 }
 
 function veziCerereParteneriat() {
-    dute("Free fire - Canale de text - 😃cerere-parteneriat😃 [498480382862295040].html")
+    dute("htmluri_discord/Free fire - Canale de text - 😃cerere-parteneriat😃 [498480382862295040].html")
 }
 
 function veziRegulament() {
-    dute("Free fire - Canale de text - 🔔regulament🔔 [497430368287326208].html")
+    dute("htmluri_discord/Free fire - Canale de text - 🔔regulament🔔 [497430368287326208].html")
 }
 
 function veziParteneri() {
-    dute("Free fire - Canale de text - 💪parteneriat💪 [499996181703819274].html")
+    dute("htmluri_discord/Free fire - Canale de text - 💪parteneriat💪 [499996181703819274].html")
 }
 
 function veziComenzi() {
-    dute("Free fire - Canale de text - 💡comenzi💡 [497459278534410261].html")
+    dute("htmluri_discord/Free fire - Canale de text - 💡comenzi💡 [497459278534410261].html")
 }
 
 function veziNemultumiri() {
-    dute("Free fire - Canale de text - 👎nemultumiri👎 [509752899182657569].html")
+    dute("htmluri_discord/Free fire - Canale de text - 👎nemultumiri👎 [509752899182657569].html")
 }
 
 function veziGiveaway() {
-    dute("Free fire - Canale de text - 🎁giveaway🎁 [498061255869726720].html")
+    dute("htmluri_discord/Free fire - Canale de text - 🎁giveaway🎁 [498061255869726720].html")
 }
 
 function veziAnunturi2() {
-    dute("McWorld - Text Channels - anunturi [528923541249458187].html")
+    dute("htmluri_discord/McWorld - Text Channels - anunturi [528923541249458187].html")
 }
 
 function veziCentruHelp() {
-    dute("McWorld - Text Channels - centru-help [526786954281353237].html")
+    dute("htmluri_discord/McWorld - Text Channels - centru-help [526786954281353237].html")
 }
 
 function veziCommands() {
-    dute("McWorld - Text Channels - commands [691399186465292398].html")
+    dute("htmluri_discord/McWorld - Text Channels - commands [691399186465292398].html")
 }
 
 function veziJoin() {
-    dute("McWorld - Text Channels - join [526693168360587264].html")
+    dute("htmluri_discord/McWorld - Text Channels - join [526693168360587264].html")
 }
 
 function veziMcChat() {
-    dute("McWorld - Text Channels - mc-chat [482525559553916941].html")
+    dute("htmluri_discord/McWorld - Text Channels - mc-chat [482525559553916941].html")
 }
 
 function vezianunturi() {
-    dute("EDI MANIA - 📋IMPORTANT📋 - 🔰anunturi🔰 [514127922878087170].html")
+    dute("htmluri_discord/EDI MANIA - 📋IMPORTANT📋 - 🔰anunturi🔰 [514127922878087170].html")
 }
 
 function veziRules() {
-    dute("EDI MANIA - 📋IMPORTANT📋 - 💬rules🗨 [514127809162117121].html")
+    dute("htmluri_discord/EDI MANIA - 📋IMPORTANT📋 - 💬rules🗨 [514127809162117121].html")
 }
 
 function vezigiveaway() {
-    dute("EDI MANIA - 📋IMPORTANT📋 - 🎉giveway🎉 [514128325346852875].html")
+    dute("htmluri_discord/EDI MANIA - 📋IMPORTANT📋 - 🎉giveway🎉 [514128325346852875].html")
 }
 
 function veziComenzi() {
-    dute("EDI MANIA - 💫TEXT CHANALES💫 - 💻comenzi💻 [514128673289535510].html")
+    dute("htmluri_discord/EDI MANIA - 💫TEXT CHANALES💫 - 💻comenzi💻 [514128673289535510].html")
 }
 
 function veziChatbox() {
-    dute("EDI MANIA - 💫TEXT CHANALES💫 - 💣chatbox💣 [514128599473979392].html")
+    dute("htmluri_discord/EDI MANIA - 💫TEXT CHANALES💫 - 💣chatbox💣 [514128599473979392].html")
 }
 
 function veziNemultumiri2() {
-    dute("EDI MANIA - 💫TEXT CHANALES💫 - 👎ne-multumiri👎 [514132602194493460].html")
+    dute("htmluri_discord/EDI MANIA - 💫TEXT CHANALES💫 - 👎ne-multumiri👎 [514132602194493460].html")
 }
 
 function veziMeme() {
-    dute("EDI MANIA - 💫TEXT CHANALES💫 - 🌈meme🌈 [514128730235338780].html")
+    dute("htmluri_discord/EDI MANIA - 💫TEXT CHANALES💫 - 🌈meme🌈 [514128730235338780].html")
 }
 
 function veziRules2() {
-    dute("Shadical - ⚠IMPORTANT⚠ - ✨rules✨ [532562516690075648].html")
+    dute("htmluri_discord/Shadical - ⚠IMPORTANT⚠ - ✨rules✨ [532562516690075648].html")
 }
 
 function veziAnnouncements() {
-    dute("Shadical - ⚠IMPORTANT⚠ - 🔔announcements🔔 [532859628216909825].html")
+    dute("htmluri_discord/Shadical - ⚠IMPORTANT⚠ - 🔔announcements🔔 [532859628216909825].html")
 }
 
 function veziInviteForRank() {
-    dute("Shadical - ⚠IMPORTANT⚠ - 🔰invite-for-rank🔰 [533224538956234772].html")
+    dute("htmluri_discord/Shadical - ⚠IMPORTANT⚠ - 🔰invite-for-rank🔰 [533224538956234772].html")
 }
 
 function veziParteners() {
-    dute("Shadical - ⚠IMPORTANT⚠ - parteners [541969535251513364].html")
+    dute("htmluri_discord/Shadical - ⚠IMPORTANT⚠ - parteners [541969535251513364].html")
 }
 
 function veziJoin2() {
-    dute("Shadical - Canale de text - ❓join❓ [531200942209499139].html")
+    dute("htmluri_discord/Shadical - Canale de text - ❓join❓ [531200942209499139].html")
 }
 
 function veziYoutubeShadical() {
-    dute("Shadical - Canale de text - 🎥youtube-shadical🎥 [531393311747866624].html")
+    dute("htmluri_discord/Shadical - Canale de text - 🎥youtube-shadical🎥 [531393311747866624].html")
 }
 
 function veziChatMusic() {
-    dute("Shadical - Canale de text - 🎸chat-music🎸 [532599371423023104].html")
+    dute("htmluri_discord/Shadical - Canale de text - 🎸chat-music🎸 [532599371423023104].html")
 }
 
 function veziSugestii() {
-    dute("Shadical - Canale de text - 👍sugestii👍 [533047218580488242].html")
+    dute("htmluri_discord/Shadical - Canale de text - 👍sugestii👍 [533047218580488242].html")
 }
 
 function veziChat2() {
-    dute("Shadical - Canale de text - 💨chat💨 [536619486975885332].html")
+    dute("htmluri_discord/Shadical - Canale de text - 💨chat💨 [536619486975885332].html")
 }
 
 function veziPoze() {
-    dute("Shadical - Canale de text - 📷poze📷 [533045989259345940].html")
+    dute("htmluri_discord/Shadical - Canale de text - 📷poze📷 [533045989259345940].html")
 }
 
 function veziPoze() {
-    dute("Shadical - Canale de text - 📷poze📷 [533045989259345940].html")
+    dute("htmluri_discord/Shadical - Canale de text - 📷poze📷 [533045989259345940].html")
 }
 
 function veziCommandsBots() {
-    dute("Shadical - Canale de text - 🔐commands_bots🔐 [532600723582484510].html")
+    dute("htmluri_discord/Shadical - Canale de text - 🔐commands_bots🔐 [532600723582484510].html")
 }
 
 function veziLinkuri() {
-    dute("Shadical - Canale de text - 🔗link-uri🔗 [533046557294067712].html")
+    dute("htmluri_discord/Shadical - Canale de text - 🔗link-uri🔗 [533046557294067712].html")
 }
 
 function veziCerereHeavy() {
-    dute("Shadical - Canale de text - cerere-heavy [536312130480242689].html")
+    dute("htmluri_discord/Shadical - Canale de text - cerere-heavy [536312130480242689].html")
 }
 
 function trimitePorci() {
