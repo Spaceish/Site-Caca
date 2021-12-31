@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style4.css">
+    <script src="script.js" defer></script>
     <title>Sesiune de cacare cu sefu 💩</title>
 </head>
 <body>
     <p>Acesta este un trailer</p>
-    <div>
-        <video  id="cacre" controls>
-            <source src="lol.mkv" type="video/mkv">
-            Esti prea prost sa vezi acest video lol.
-    </video>
+    <div id="cacre" style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/amwvxm" frameborder="0" width="100%" height="100%" allowfullscreen allow="autoplay" style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+    <button onclick="arataCacre()">Arata pe trailer</button>
+    <input type="text" id="sesiune" class="fadeIn second" name="name" placeholder="Cod de trecere:">
+    <button type="button" class="fadeIn fourth" onclick="treciLaSesiune()">Treci la sesiune</button>
+    <p id="status"></p>
+    <button type="button" onclick="paginaUnu()">Pagina 1</button>
 </body>
 </html>

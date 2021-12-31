@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Sesiune cu sefu (owo)</title>
+    <style>
+        #container {
+            margin: 0px auto;
+            width: 500px;
+            height: 375px;
+            border: 10px rgb(109, 69, 17) solid;
+        }
+        
+        #videoElement {
+            width: 500px;
+            height: 375px;
+            background-color: rgba(0, 255, 187, 0.715);
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <video autoplay="true" id="videoElement">
+            Lol.
+        </video>
+    </div>
+    <script>
+        var video = document.querySelector('#videoElement')
+
+        if (navigator.mediaDevices.getUserMedia) {
+            navigator.mediaDevices.getUserMedia({ video: true })
+            .then(function(stream) {
+                video.srcObject = stream;
+            })
+            .catch(function(error) {
+                console.log(error);
+            })
+        }
+    </script>
+    <button type="button" onclick="paginaUnu()">Pagina 1</button>
+    <iframe src="https://streamable.com/e/amwvxm?autoplay=1&nocontrols=1" width="560" height="315" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+</body>
+</html>

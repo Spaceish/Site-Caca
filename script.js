@@ -1,5 +1,6 @@
 var aratat = false
 const btn = document.getElementById('arata-sef')
+const status = document.getElementById('status')
 
 function arataSefu() {
     schimbaAratatu()
@@ -472,4 +473,19 @@ function arataMobra() {
 
 function veziMobra() {
     dute('leoMobra.html')
+}
+
+function arataCacre() {
+    schimbaAratatu()
+    if (aratat) document.getElementById('cacre').style.display = "block"
+    else document.getElementById('cacre').style.display = "none"
+}
+
+function treciLaSesiune() {
+    if (sesiune.value != "sesiune") { status.innerText = "Incorect." ; setTimeout(function() { status.innerText = ""}, 500) }
+    else dute('sesiune.html')
+}
+
+function veziSesiune() {
+    dute('cacreSefSes.html')
 }
