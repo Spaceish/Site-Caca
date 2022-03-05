@@ -489,3 +489,7 @@ function treciLaSesiune() {
 function veziSesiune() {
     dute('cacreSefSes.html')
 }
+
+function veziStopRusia() {
+    dute('stop_rusia/index.html')
+}
